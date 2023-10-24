@@ -1,0 +1,44 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.go{
+    margin-top: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card{
+    width: 280px;
+    height: 3px;
+    border-radius: 30%;
+    background-color: aliceblue;
+}
+
+.content{
+    width: 280px;
+    height: 250px;
+    background-color: rgb(77, 152, 217);
+    border-radius: 7%;
+    transition: background-color 0.3s, transform 0.3s;
+    margin: 0 10px 0 10px;
+}
+
+.td{
+    font-size: 18px;
+    font-weight: 600;
+    color: aliceblue;
+    padding: 5px 10px 5px 10px;
+}
+
+.nd{
+    padding: 20px 10px 10px 10px;
+    color: #000000;
+    font-weight: 600;
+}
+
+.content:hover{
+    background-color: #5484dd;
+    transform: scale(1.1);
+}
